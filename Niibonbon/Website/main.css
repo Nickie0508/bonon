@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+nav{
+    background-color: #fd9696;
+    width: 150px;
+    padding: 20px;
+}
+ul li {
+    list-style: none;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: #f36262;
+    color: #fff;
+    text-align: center;
+    padding: 9px 0;
+    height: 130px;
+}
+
+.HEY{
+    display: flex;
+    flex: 2;
+    text-align: center
+}
+main {
+    flex: 1;
+    padding: 15px;
+    background-image: -moz-element();
+    image-rendering: auto;
+    h1{    
+        font-family: 'Times New Roman';
+        font-style: italic;
+        color:rgb(66, 124, 233);
+       }
+}
+
+footer{
+    background-color: #ee5454;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
