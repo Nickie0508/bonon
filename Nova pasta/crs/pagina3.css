@@ -1,6 +1,5 @@
 body{
     background-color: #000000
-    color: #FFFFFFF
 }
 body {
     margin: 0;
@@ -13,8 +12,8 @@ body {
 }
 
 .sidebar {
-    width: 200px;
-    height: 100vh;
+    width: 140px;
+    height: 85px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +34,12 @@ body {
 }
 
 .content {
+    
     flex: 1;
     padding: 20px;
-    background-color: #fff;
+    color: #FFFFFF
+}
+.errorimg{
+    height:240px;
+    width: 240px;
 }
