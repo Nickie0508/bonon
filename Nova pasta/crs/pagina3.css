@@ -2,3 +2,40 @@ body{
     background-color: #000000
     color: #FFFFFFF
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.left {
+    background-color: #f4f4f4;
+}
+
+.right {
+    background-color: #f4f4f4;
+}
+
+.sidebar img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
