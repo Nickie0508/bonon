@@ -1,12 +1,5 @@
 const menu = document.getElementById('menu');
 const toggleBtn = document.getElementById('toggle-btn');
-document.querySelectorAll('.menu a').forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        alert('Link clicado: ' + e.target.textContent);
-    });
-});
-
 
 let isOpen = false;
 
