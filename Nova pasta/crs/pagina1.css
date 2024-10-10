@@ -1,0 +1,10 @@
+header{
+    background-color: #f36262;
+    color: #fff;
+    text-align: center;
+    padding: 9px 0;
+    height: 130px;
+}
+.pfp{
+    position: static;
+}
