@@ -79,7 +79,10 @@ main {
 
 footer{
     background-color: #ee5454;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
