@@ -27,7 +27,6 @@ body {
 .right {
     background-color: #000000;
 }
-
 .sidebar img {
     max-width: 100%;
     max-height: 100%;
@@ -41,7 +40,7 @@ body {
     text-allign: center;
     flex: 1;
     padding: 20px;
-    color: #ffffff
+    color: #FFFFFF
 }
 .errorimg{
     height:240px;
