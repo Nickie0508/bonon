@@ -38,7 +38,7 @@ body {
     font-size: 23px;
 
 .content {
-    
+    text-allign: center;
     flex: 1;
     padding: 20px;
     color: #ffffff
