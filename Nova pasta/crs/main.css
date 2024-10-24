@@ -10,24 +10,29 @@ body{
 .menu {
     width: 250px;
     height: 100%;
-    background-color: #9D3C44;
+    background-color: #9d3c44;
     position: fixed;
-    left: -250px; /* Inicia fora da tela à esquerda */
+    left: -230px; /* Inicia fora da tela à esquerda */
     transition: left 0.3s ease;
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 9px 0 5px rgba(252, 146, 146, 0.795);
 }
 
 .menu ul {
     list-style-type: none;
     padding: 0;
+
 }
 
 .menu li a {
-    color: rgb(69, 131, 245);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
     padding: 10px 0;
+    background-color: rgb(107, 198, 221);
+    text-align: center;
+    font-family: fantasy; 
+    font-stretch: ultra-expanded;
 }
 
 #toggle-btn {
@@ -42,7 +47,7 @@ body{
     transition: right 0.3s ease;
 }
 
-}
+
 ul li {
     list-style: none;
     padding: 18px;
@@ -51,16 +56,19 @@ ul li {
 }
 header{
     background-color: #692627;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 9px 0;
     height: 130px;
+    font-size: larger;
 }
 
 .HAI{
     display: flex;
     flex: 2;
-    text-align: center
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 main {
     display: flex;
@@ -82,7 +90,8 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    position: fixed;
 }
+
